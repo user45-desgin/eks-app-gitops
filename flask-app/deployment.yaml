@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: <ECR_REPO_URL>:latest   # replace later after CI/CD
+        image: 723619976108.dkr.ecr.us-east-1.amazonaws.com/proj8-eks-app:latest   # replace later after CI/CD
         ports:
         - containerPort: 5000
 

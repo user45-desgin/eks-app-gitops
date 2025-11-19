@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/user/user45-desgin/eks-app-gitops.git
+    repoURL: https://github.com/user45-desgin/eks-app-gitops.git
     path: flask-app
     targetRevision: main
   destination:
